@@ -1,3 +1,5 @@
 ```
 autoreconf -vif
+./configure
+make
 ```
