@@ -1,8 +1,9 @@
 AC_INIT(My package,1.0)
 
 AC_CONFIG_MACRO_DIR([m4])
+AM_INIT_AUTOMAKE([foreign])
 
-AX_BLAS
-AX_LAPACK
+AX_BLAS()
+AX_LAPACK()
 
 AC_OUTPUT(Makefile)
